@@ -1,0 +1,111 @@
+<HTML>
+<HEAD><TITLE>
+BU CAS CS 392: Assign01
+</TITLE></HEAD>
+
+<BODY>
+<H2>
+Assign01, due Friday, February 7 at 11:59pm.
+</H2>
+
+You must submit your program electronically via Gradescope.
+
+Late programs will be accepted, but only if you use one of your two free
+48-hour extensions (strongly discouraged at this point in the course).
+
+<HR>
+
+<h3>
+Programming Assignment 
+</h3>
+
+<p>
+The Java code for this assignment can be found the subdirectory named <u>Code</u>.
+</p>
+
+The Payroll class consists of a set of Employees, stored in the
+<em>people</em> variable.  The constructor
+will allocate an array of some positive size to <i>people</i>.  
+This size is remembered in the private member variable 
+<i>maximum_size</i>.  Later, a private member function 
+can double the size of the payroll as needed.  (We will not worry about 
+decreasing the size of the payroll.)  Only the initial part of the array 
+will store actual Employees: you should store the number of actual
+Employees in the private variable <i>current_size</i>.<p>
+
+You get to implement the following member functions:
+<ol>
+<li>
+<i>Payroll()</i> -- default constructor; Allocate a payroll of some
+positive size (you decide how large) to the people variable, set the
+maximum_size appropriately, and the current_size to zero.
+
+<li>
+<i>int size();</i> -- return <i>current_size</i>.
+
+<li>
+<i>void print();</i> -- print the Employees currently on
+the Payroll, one per line.
+
+<li>
+<i>void add_employee(Employee newbie);</i> -- add a new Employee to the
+payroll, making more room on the payroll if necessary.
+
+<li> 
+<i>void remove_employee(int i);</i> -- remove Employee in people[i],
+shifting other Employees over to fill its place (or just replacing it with
+the last Employee: remove is not guaranteed to keep order).  Throw an
+exception if there is no entry at position i.
+
+<li>
+<i>int find_employee(String target_name);</i> -- return the first i such
+that people[i].name == target_name.  Throw an exception if no such i is
+found.
+
+<li>
+<i>void copy_payroll(Payroll source);</i> -- assign one Payroll 
+to another.
+
+<li>
+<i>void add_payroll(Payroll source);</i> -- combine two Payrolls
+into one.  Do not worry about repeated items.
+</ol>
+
+You may use other private members for Payroll to implement the required
+public members if you wish.
+<p>
+
+In the file called <em>PayrollTest.java</em>, please write a program that tests
+all public member functions of your Payroll class.
+<p>
+
+As always, please feel free to ask questions.
+
+<HR>
+
+<h3>
+Grading Criteria
+</h3>
+
+<p>Refer to the grading criteria file: <a href="./p1.criteria">p1.criteria</a>
+</p>
+
+You are responsible for thoroughly testing your program to make sure that
+it works.  Your code must run correctly on csa.  In grading your program,
+we will verify that your test cases adequately test your routines, then
+test your program on some payroll test files of our own.
+<HR>
+
+<h3>
+Academic Honesty and Collaboration
+</h3>
+Cooperation is acceptable in understanding programming concepts and system
+features. But the actual solution of the assignments including all
+programming must be your individual work.  For example, copying without
+attribution any part of someone else's program is plagiarism, even if you
+have modified the code.  The University takes acts of cheating and
+plagiarism very seriously; first time violators are routinely suspended for
+a semester.  <br>&nbsp;
+
+</BODY>
+</HTML>

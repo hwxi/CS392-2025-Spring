@@ -1,0 +1,16 @@
+
+CS112 - Spring 2025
+Assignment 1 Grading Criteria
+
+Function (total 70%):
+
+Payroll class functions as specified on assignment WWW page:
+
+10% correct constructor 
+20% correctly handles addition and resizing
+20% correctly handles removal, lookup and print
+20% correctly handles assignment and merge
+
+Test cases (total 30%):
+
+30% Test cases adequately test all code paths of Payroll member functions. 
