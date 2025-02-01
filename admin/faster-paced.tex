@@ -1,0 +1,173 @@
+% TU Eindhoven beamer template
+% Author: Jens d'Hondt
+% Eindhoven University of Technology
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{beamer}
+\usepackage[english]{babel}
+\usepackage{calc}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{comment}
+\usepackage{MnSymbol,wasysym}
+
+\newcommand{\defn}[1]{\textbf{\emph{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% \setbeamertemplate%
+%% {navigation symbols}{} % remove navigation symbols
+%% \mode<presentation>{\usetheme{tue}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% BIB SETTINGS
+\usepackage[backend=bibtex,firstinits=true,maxnames=30,maxcitenames=20,url=false,style=authoryear]{biblatex}
+\bibliography{bibfile}
+\setlength\bibitemsep{0.3cm} % space between entries in the reference list
+\renewcommand{\bibfont}{\normalfont\scriptsize}
+\setbeamerfont{footnote}{size=\tiny}
+\renewcommand{\cite}[1]{\footnote<.->[frame]{\fullcite{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[]{CS112 at a Faster Pace}
+%\title[]{The Title of the Presentation}
+\institute[]{Computer Science Department \\ Boston University \\ Semester: Spring, 2025}
+%\institute[]%
+%{Eindhoven University of Technology, The Netherlands}
+\author{Hongwei Xi}
+%\author{First Author \and Second Author}
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+{
+\setbeamertemplate{footline}{\usebeamertemplate*{minimal footline}}
+\frame{\titlepage}
+}
+{
+\setbeamertemplate{footline}{\usebeamertemplate*{minimal footline}}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin%
+{frame}%
+{What?}
+\begin%
+{itemize}%
+\item
+This faster-paced version of CS112 goes faster so that
+more content can be covered. In particular, more focus will be on
+teaching programming skills (besides data structures) in Java as well
+as in general.
+\item Textbook:\break
+Algorithms by Robert Sedgewick and Kevin Wayne, Princeton University.
+\item Here is an older version of CS112:\\[6pt]
+  {\underline{\texttt{https://www.cs.bu.edu/~hwxi/hwxi-2020-12-31/}}}
+  \break
+  {\underline{\texttt{academic/courses/CS112/Spring10/classpage.html}}}
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin%
+{frame}%
+{Why?}
+\begin%
+{itemize}
+\item BUCS enrollments have gone up a lot!
+\item There are many shortcomings to the {\em one-size-fits-all} model of teaching CS112.
+\item A faster-paced version of CS112 can effectively address some of these shortcomings.
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin%
+{frame}%
+{For whom?}
+
+You may want to take it if
+\begin%
+{itemize}
+\item
+you enjoy programming in general, and/or
+\item
+you welcome more programming challenges, and/or
+\item
+you are already familiar with basic programming
+\begin%
+{itemize}
+\item you are familiar with Java, and/or
+\item you are familiar with another language like Python, and/or
+\item you are confidant in your ability to pick up Java on your own.
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin%
+{frame}%
+{What is it like?}
+
+%% Unlike CS 112, which has plenty of TFs, CAs, office hours, and
+%% discussion sections, Hongwei's section will have very little of
+%% that. Also, as it's being taught for the first time, it will be more
+%% subject to change; "experimental" may be the word to use.
+
+\begin%
+{itemize}
+\item
+This class is small. At most one TA is expected.
+\item
+As it is being taught for the first time, it will be more subject
+to change. In short, it is somewhat "experimental".
+\item
+Grading tends to be interactive in the sense that you are given chances
+to fix your programming errors. 
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin%
+{frame}
+{How to proceed?}
+
+\begin%
+{itemize}
+\item
+There will be a placement test given.
+\item
+Please take it if you are interested. We will send out invitations
+based on the quality of the submitted solutions to this test.
+\item Note that the class time is not yet fixed. Here are some possibilities:
+\begin%
+{itemize}
+\item Tuesday/Thursday 09:30am-10:45am
+\item Tuesday/Thursday 11:00am-12:15am
+\item Tuesday/Thursday 05:00pm-06:15pm
+\end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
