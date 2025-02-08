@@ -11,6 +11,10 @@ public class ArrayStack<T> {
     private T[] a; // array of items
     private int n; // number of elements on stack
 
+    public ArrayStack() {
+	a = (T[]) new Object[INIT_CAPACITY];
+    }
+
     public int size() {
         return n;
     }
