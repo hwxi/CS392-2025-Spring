@@ -13,6 +13,7 @@ all:: \
 TestPayroll
 ########################################################################
 TestPayroll: TestPayroll.class; $(JAVA) -cp $(MYCPS) TestPayroll
+TestPayroll.class: TestPayroll.java; $(JAVAC) -cp $(MYCPS) TestPayroll.java
 ########################################################################
 clean:: ; rm -f *~
 ########################################################################
