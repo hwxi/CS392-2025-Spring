@@ -28,3 +28,10 @@ Please give a generic array-based implementation of deque.
 A deque (double-ended queue) combines a stack and a queue together.
 Please give a generic list-based implementation of deque. Note the
 list here is doubly-linked.
+
+## Assignment 2-5 (20 points)
+
+Let A be a sorted array of N integers.
+Please determine whether there exist indices i and j and k satisfying
+A[i] + A[j] = A[k].  Design a soft quadratic (that is, $tO(n^2), where
+$tQ$ is for the "soft" big O). algorithm for the problem.
