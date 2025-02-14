@@ -5,4 +5,7 @@ public class Assign02_05 {
 	// solve_3sum(A) returns true if and only if there exist
 	// indices i, j, and k satisfying A[i]+A[j] = A[k].
     }
+    public static main(String[] argv) {
+	// Please write some code here for testing solve_3sum
+    }
 }

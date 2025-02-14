@@ -4,7 +4,8 @@ public class Assign02_01 {
       The 'int' type in Java is for integers of some fixed precision.
       More precisely, each integer of the type int is represented a sequence of bits
       of some fixed length. Please write a program that finds this length. Your program
-      is expected return the correct answer instantly.
+      is expected return the correct answer instantly. Note that you can only use arithmetic
+      operations here. In particular, no bit-wise operations are allowed.
      */
     public void main(String[] argv) {
 	// Please give your implementation here
