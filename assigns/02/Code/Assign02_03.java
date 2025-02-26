@@ -1,3 +1,3 @@
-public class Assign02_03<T> implement Deque<T> {
+public class Assign02_03<T> implements Deque<T> {
     // Please give an array-based implementation of Deque
 }
