@@ -12,11 +12,11 @@ correct answer instantly.
 
 ## Assignment 2-2 (10 points)
 
-Recursion is a fundamental concept in programming.  However, the
-support for recursion in Java is very limited.  Nontheless, we will be
-making extensive use of recursion in this class. This question asks you
-to give a recursive implementation of binary search. Please see the given
-code for more information.
+Recursion is a fundamental concept in programming. Quitely
+unfortunately, the support for recursion in Java is very limited.
+Nontheless, we will be making extensive use of recursion in this
+class. This question asks you to give a recursive implementation of
+binary search. Please see the given code for more information.
 
 ## Assignment 2-3 (30 points)
 
