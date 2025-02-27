@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment 3
 
 It is due Monday, the 3rd of March
 
@@ -13,6 +13,8 @@ function.
 Given an implementation for sorting on arrays, how do you check
 whether the implementation actually implements stable sorting? This is
 probably the most interesting question in this assignment.
+
+Hint: You may want to use System.identityHashCode to identify objects.
 
 ## Assignment 3-3 (20 points)
 
