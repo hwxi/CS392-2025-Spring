@@ -1,5 +1,6 @@
 
 import java.util.Iterator;
+import java.util.function.Consumer;
 import java.util.NoSuchElementException;
 
 import edu.princeton.cs.algs4.*;
@@ -125,12 +126,14 @@ public class Stack<Item> implements Iterable<Item> {
         }
     }
 
+    @Override
+    public void forEach(Consumer<? super Item> action) {
+	Iterator<Item> iter = iterator();
+	while (iter.hasNext()) {
+	    action.accept(iter.next());
+	}
+    }
 
-    /**
-     * Unit tests the {@code Stack} data type.
-     *
-     * @param args the command-line arguments
-     */
     public static void main(String[] args) {
         Stack<String> stack = new Stack<String>();
         while (!StdIn.isEmpty()) {
