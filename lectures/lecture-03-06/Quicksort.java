@@ -14,4 +14,13 @@ public class Quicksort {
 	return (x.compareTo(y) < 0);
     }
 
+    public static <T extends Comparable<T>> void sort(T[] A) {
+	final int n = A.length;
+	sortRec(A, 0, n); return;
+    }
+
+    public static <T extends Comparable<T>> void sortRec(T[] A, int l, int r) {
+	return;
+    }
+
 }

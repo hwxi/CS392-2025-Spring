@@ -14,4 +14,25 @@ public class Mergesort {
 	return (x.compareTo(y) < 0);
     }
 
+    public static <T extends Comparable<T>> void sort(T[] A) {
+	final int n = A.length;
+	T[] B = (T[]) new Object[n];
+	sortRec(A, 0, n, B); return;
+    }
+
+    private
+	static <T extends Comparable<T>>
+	void sortRec(T[] A, int l, int r, T[] B) {
+	if (r <= l+1) return;
+	final int m = l + (r - l) / 2;
+        sortRec(A, l, m, B);
+	sortRec(A, m, r, B);
+	mergeRec(A, l, m, m, r, B);
+    }
+
+    private
+	static <T extends Comparable<T>>
+	void mergeRec(T[] A, int l1, int r1, int l2, int r2, T[] B) {
+    }
+
 }
