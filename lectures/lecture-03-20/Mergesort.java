@@ -28,7 +28,7 @@ public class Mergesort {
 	final int m = l + (r - l) / 2;
 	sortRec2(A, l, m, B); // HX: conquer
 	sortRec2(A, m, r, B); // HX: conquer
-	mergeRec(B, l, m, r, A); //: assemble
+	mergeRec(B, l, m, r, A); // HX: assemble
 	return;
     }
 
@@ -41,7 +41,7 @@ public class Mergesort {
 	final int m = l + (r - l) / 2;
 	sortRec1(A, l, m, B); // HX: conquer
 	sortRec1(A, m, r, B); // HX: conquer
-	mergeRec(A, l, m, r, B); //: assemble
+	mergeRec(A, l, m, r, B); // HX: assemble
 	return;
     }
 
