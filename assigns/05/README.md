@@ -23,10 +23,10 @@ Assignment 5-1.
 
 ## Assignment 5-3 (30 points)
 
-Please finish ChainedHashTable. Note that the give HashTable interface
-is not generic. You should first turn it into a generic one: HashTable<K,V>
+Please finish ChainedHashTable (hash table using separate
+chaining). Note that the give HashTable interface is not generic.
+You should first turn it into a generic one: HashTable<K,V>
 
 ## Assignment 5-4 (30 points)
 
-Please finish ChainedHashTable. Note that the give HashTable interface
-is not generic. You should first turn it into a generic one: HashTable<K,V>
+Please finish OpenHashTable (hash table with open addressing).
